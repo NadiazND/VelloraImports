@@ -94,7 +94,8 @@
 
         .stock-card {
             position: relative;
-            height: 400px;
+            /* height: 400px;  <-- Dihapus agar tinggi tidak fix */
+            aspect-ratio: 16 / 9; /* <-- Ditambahkan untuk mengunci rasio landscape 16:9 */
             border-radius: 6px;
             overflow: hidden;
             cursor: pointer;
